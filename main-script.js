@@ -303,7 +303,8 @@ void function () {
 							m(child ? 'td.folder' : 'td.file', {
 								colspan: n - i,
 								title: fullPath.substring(targetDir.length + 1),
-								onclick: () => openItem(fullPath)
+									() => showItemInFolder(fullPath) :
+									() => openItem(fullPath)
 							}, prop)
 						]));
 					}
