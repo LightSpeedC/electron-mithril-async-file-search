@@ -277,7 +277,7 @@ void function () {
 			return [
 				keys.filter(prop => !prop.startsWith(INVISIBLE_PROP)).map(prop => {
 					const child = node[prop];
-					const fullPath = (nodePath.join('\\') + '\\' + prop).substr(i === 0);
+					const fullPath = (nodePath.join(path.sep) + path.sep + prop).substr(i === 0);
 					if (prop === ERROR_PROP)
 						return child === undefined ? [] :
 							m('tr', { key: fullPath },
