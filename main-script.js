@@ -3,7 +3,7 @@ void function () {
 
 	focus();
 
-	const version = 'version: 0.0.14 (2016/10/25)';
+	const version = 'version: 0.0.15 (2017/07/15)';
 
 	const path = require('path');
 	const spawn = require('child_process').spawn;
@@ -80,6 +80,7 @@ void function () {
 	// リリース・ノート表示
 	function viewReleaseNotes() {
 		const list = [
+			'0.0.15 (2017/07/15): WindowsだけでなくMacにも対応 for Gunma.web #28 (electron@1.5.1)',
 			'0.0.14 (2016/10/25): デフォルト値を変更 configバージョン変更',
 			'0.0.13 (2016/10/10): 起動時に入力テキストを選択',
 			'0.0.12 (2016/09/29): チェックボックスのラベルの不具合修正',
