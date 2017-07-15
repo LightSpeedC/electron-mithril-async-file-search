@@ -303,6 +303,7 @@ void function () {
 							m(child ? 'td.folder' : 'td.file', {
 								colspan: n - i,
 								title: fullPath.substring(targetDir.length + 1),
+								onclick: child && process.platform !== 'win32' ?
 									() => showItemInFolder(fullPath) :
 									() => openItem(fullPath)
 							}, prop)
