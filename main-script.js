@@ -379,8 +379,9 @@ void function () {
 
 	// フォルダやファイルを開く
 	function openItem(file) {
-		spawn('explorer', [file]);
-		//electron.shell.openItem(file);
+		process.platform === 'win32' ?
+			spawn('explorer', [file]) :
+			electron.shell.openItem(file);
 		return;
 	}
 
