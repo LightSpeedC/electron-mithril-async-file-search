@@ -22,6 +22,12 @@ You can run with `npm start`. Pass the directory path to search.
 npm start /path/to/search
 ```
 
+```bash
+npm start .
+npm start ..
+npm start ../..
+```
+
 ## DEPENDENCIES / 依存モジュール
 
 Depends on `aa` with `promise-thunk`, `executor` and `electron`.
