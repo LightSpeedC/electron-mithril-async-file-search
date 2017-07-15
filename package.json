@@ -1,0 +1,19 @@
+{
+  "name": "electron-mithril-async-file-search",
+  "version": "0.0.15",
+  "description": "file search electron mithril",
+  "main": "main.js",
+  "private": true,
+  "window": {
+    "width": 1200,
+    "height": 800
+  },
+  "dependencies": {
+    "aa": ">=0.1.40",
+    "electron": "^1.6.11",
+    "executors": ">=0.0.6"
+  },
+  "scripts": {
+    "start": "electron ."
+  }
+}
