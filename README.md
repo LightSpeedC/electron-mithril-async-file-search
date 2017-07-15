@@ -9,6 +9,8 @@ Tested Mac and Windows 10.
 ## PREPARATION / 準備
 
 ```bash
+git clone https://github.com/LightSpeedC/electron-mithril-async-file-search
+cd electron-mithril-async-file-search
 npm install
 ```
 
