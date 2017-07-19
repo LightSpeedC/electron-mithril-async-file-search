@@ -8,7 +8,7 @@ body {
 	font-family: "メイリオ", Meiryo,
 		"ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
 }
-.current { background-color: #cfc; }
+.current { background-color: #cfe; }
 
 /* http://weboook.blog22.fc2.com/blog-entry-265.html */
 /* tr:nth-child(odd) { background: #eff; } */
@@ -44,7 +44,7 @@ td:hover  { background-color: #ccf; }
 	transition: all .3s;
 }
 .button {
-	background-color: #383;
+	background-color: #388;
 	color: #fff;
 }
 .button:hover {
