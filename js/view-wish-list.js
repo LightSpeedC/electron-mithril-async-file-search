@@ -9,7 +9,7 @@ module.exports = function (m) {
 		const list = [
 			'更新日付で範囲検索したい',
 			'更新日付を表示したい',
-			'更新日時など',
+			'検索ワードのハイライト表示',
 			'いろいろと実現した。後、やることは?',
 		];
 		return m('ul', list.map(x => m('li', x)));
