@@ -1,4 +1,4 @@
-# electron-mithril-async-file-search
+# [electron-mithril-async-file-search](https://github.com/LightSpeedC/electron-mithril-async-file-search#readme) 
 
 Async file search tool with electron and mithril.
 
