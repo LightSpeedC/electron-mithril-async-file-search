@@ -1,6 +1,6 @@
 'use strict';
 
-module.exports = function(m) {
+module.exports = function (m) {
 
 	return viewWishList;
 
