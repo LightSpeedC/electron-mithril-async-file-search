@@ -7,12 +7,14 @@ module.exports = function (m) {
 	// やりたいことリスト表示
 	function viewWishList() {
 		const list = [
+			'ファイルの内容で検索したい',
+			'ファイルのサイズで範囲検索したい',
+			'ファイルのサイズを表示したい',
 			'更新日付で範囲検索したい',
 			'更新日付を表示したい',
 			'検索ワードのハイライト表示',
-			'ファイルの内容で検索したい',
 			'Mithril v1系にバージョンアップ',
-			'React v15版を作る',
+			'React v16版を作る',
 			'JSX対応 TypeScript v2.4, Babel v6, Webpack v3対応',
 			'更新速度をUP',
 			'いろいろと実現した。後、やることは?',
