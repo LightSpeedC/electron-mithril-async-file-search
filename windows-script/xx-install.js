@@ -17,7 +17,7 @@ void function () {
 	const buff = fs.readFileSync('xx-e.reg').toString('UTF16LE')
 	.replace(dirRex, srcDir.replace(yenRex, yen2Str))
 	.replace(exeRex, eleExe.replace(yenRex, yen2Str));
-	fs.writeFileSync('xx-e.reg.log', new Buffer(buff, 'UTF16LE'));
+	fs.writeFileSync('xx-e.reg.log', Buffer.from(buff, 'UTF16LE'));
 
 	const res = child_process.spawnSync('regedit', ['/s', 'xx-e.reg.log']);
 	if (res.status || res.signal)
